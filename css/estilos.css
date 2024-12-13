@@ -1,0 +1,34 @@
+body {
+    background-color: #d9d6d6;
+}
+#cabecera {
+    background-color: #091c40;
+    height: 140px;
+}
+#cabecera #logo {
+    width: 5%;
+}
+#cabecera #nombre-sitio {
+    color: white;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cabecera #menu {
+    float: right;
+}
+#cabecera #menu ul{
+    list-style: none;    
+}
+#cabecera #menu ul li{
+   display: inline-block
+}
+#cabecera #menu ul li a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+ }
+ #cabecera #menu ul li a:hover{
+    font-size: 1.3em;
+    text-decoration: underline;
+ }
+ 
